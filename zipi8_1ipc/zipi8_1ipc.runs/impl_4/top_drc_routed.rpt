@@ -1,0 +1,41 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Sep  7 00:28:28 2020
+| Host         : LPHPOMEN running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+| Design       : top
+| Device       : xczu7ev-ffvc1156-2-e
+| Speed File   : -2
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 1          |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net processor_zipi8/state_machine_i/flag_enable is a gated clock net sourced by a combinational pin processor_zipi8/state_machine_i/zero_flag_reg_i_2/O, cell processor_zipi8/state_machine_i/zero_flag_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

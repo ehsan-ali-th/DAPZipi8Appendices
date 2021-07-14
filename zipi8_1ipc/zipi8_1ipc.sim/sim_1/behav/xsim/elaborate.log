@@ -1,0 +1,60 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 13b83734b8604d5991234f9c91f4ae1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_zipi8_behav xil_defaultlib.test_zipi8 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package std.env
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.op_codes
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME4_ADV(CLKFBOUT_MULT_F=4.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.RAMB36E2(DOA_REG=0,DOB_REG=0,INI...
+Compiling module xil_defaultlib.program_memory_blk_mem_gen_prim_...
+Compiling module xil_defaultlib.program_memory_blk_mem_gen_prim_...
+Compiling module unisims_ver.RAMB36E2(DOA_REG=0,DOB_REG=0,INI...
+Compiling module xil_defaultlib.program_memory_blk_mem_gen_prim_...
+Compiling module xil_defaultlib.program_memory_blk_mem_gen_prim_...
+Compiling module xil_defaultlib.program_memory_blk_mem_gen_gener...
+Compiling module xil_defaultlib.program_memory_blk_mem_gen_top
+Compiling module xil_defaultlib.program_memory_blk_mem_gen_v8_4_...
+Compiling module xil_defaultlib.program_memory_blk_mem_gen_v8_4_...
+Compiling module xil_defaultlib.program_memory
+Compiling architecture behavioral of entity xil_defaultlib.state_machine [state_machine_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_bank_control [register_bank_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.decode4_pc_statck [decode4_pc_statck_default]
+Compiling architecture behavioral of entity xil_defaultlib.decode4alu [decode4alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.decode4_strobes_enables [decode4_strobes_enables_default]
+Compiling architecture behavioral of entity xil_defaultlib.flags [flags_default]
+Compiling architecture behavioral of entity xil_defaultlib.x12_bit_program_address_generator [x12_bit_program_address_generato...]
+Compiling architecture behavioral of entity xil_defaultlib.program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.ram [\ram(data_width=8,address_width=...]
+Compiling architecture behavioral of entity xil_defaultlib.stack [stack_default]
+Compiling architecture behavioral of entity xil_defaultlib.ram32m_behav [\ram32m_behav(data_width=8,addre...]
+Compiling architecture behavioral of entity xil_defaultlib.two_banks_of_16_gp_reg [two_banks_of_16_gp_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.sel_of_2nd_op_to_alu_and_port_id [sel_of_2nd_op_to_alu_and_port_id...]
+Compiling architecture behavioral of entity xil_defaultlib.sel_of_out_port_value [sel_of_out_port_value_default]
+Compiling architecture behavioral of entity xil_defaultlib.arith_and_logic_operations [arith_and_logic_operations_defau...]
+Compiling architecture behavioral of entity xil_defaultlib.shift_and_rotate_operations [shift_and_rotate_operations_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.ram [\ram(data_width=8,address_width=...]
+Compiling architecture behavioral of entity xil_defaultlib.spm_with_output_reg [spm_with_output_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_outputs_from_alu_spm_input_ports [mux_outputs_from_alu_spm_input_p...]
+Compiling architecture behavioral of entity xil_defaultlib.zipi8 [zipi8_default]
+Compiling architecture behavioral of entity xil_defaultlib.top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_zipi8
+Built simulation snapshot test_zipi8_behav
