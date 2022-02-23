@@ -13,6 +13,7 @@ Copyright notice: This project is part of PhD thesis titled:
  
  The title of associated publication for this work is:
 "A Deterministic Branch Prediction Technique for Real-Time Embedded Processor Based on PicoBlaze Architecture"
+
 Copying and clonning is allowed by having a reference to the thesis title, the publication and the authors.
 
 
