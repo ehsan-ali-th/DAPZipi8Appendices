@@ -1,0 +1,561 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Sep  7 00:23:59 2020
+# Process ID: 29440
+# Current directory: D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.runs/synth_2
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.runs/synth_2/top.vds
+# Journal file: D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 54460 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1615.730 ; gain = 65.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/top.vhd:44]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.runs/synth_2/.Xil/Vivado-29440-LPHPOMEN/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'clock_gen' of component 'clk_wiz_0' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/top.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.runs/synth_2/.Xil/Vivado-29440-LPHPOMEN/realtime/clk_wiz_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'program_memory' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.runs/synth_2/.Xil/Vivado-29440-LPHPOMEN/realtime/program_memory_stub.vhdl:5' bound to instance 'test_program' of component 'program_memory' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/top.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'program_memory' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.runs/synth_2/.Xil/Vivado-29440-LPHPOMEN/realtime/program_memory_stub.vhdl:23]
+INFO: [Synth 8-3491] module 'zipi8' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:35' bound to instance 'processor_zipi8' of component 'zipi8' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/top.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'zipi8' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:56]
+INFO: [Synth 8-3491] module 'state_machine' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/state_machine.vhd:34' bound to instance 'state_machine_i' of component 'state_machine' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:382]
+INFO: [Synth 8-638] synthesizing module 'state_machine' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/state_machine.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'state_machine' (1#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/state_machine.vhd:55]
+INFO: [Synth 8-3491] module 'register_bank_control' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/register_bank_control.vhd:34' bound to instance 'register_bank_control_i' of component 'register_bank_control' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:406]
+INFO: [Synth 8-638] synthesizing module 'register_bank_control' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/register_bank_control.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'register_bank_control' (2#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/register_bank_control.vhd:49]
+INFO: [Synth 8-3491] module 'decode4_pc_statck' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4_pc_statck.vhd:34' bound to instance 'decode4_pc_statck_i' of component 'decode4_pc_statck' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:420]
+INFO: [Synth 8-638] synthesizing module 'decode4_pc_statck' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4_pc_statck.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'decode4_pc_statck' (3#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4_pc_statck.vhd:46]
+INFO: [Synth 8-3491] module 'decode4alu' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4alu.vhd:34' bound to instance 'decode4alu_i' of component 'decode4alu' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:431]
+INFO: [Synth 8-638] synthesizing module 'decode4alu' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4alu.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'decode4alu' (4#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4alu.vhd:46]
+INFO: [Synth 8-3491] module 'decode4_strobes_enables' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4_strobes_enables.vhd:34' bound to instance 'decode4_strobes_enables_i' of component 'decode4_strobes_enables' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:441]
+INFO: [Synth 8-638] synthesizing module 'decode4_strobes_enables' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4_strobes_enables.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'decode4_strobes_enables' (5#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4_strobes_enables.vhd:51]
+INFO: [Synth 8-3491] module 'flags' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:34' bound to instance 'flags_i' of component 'flags' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:457]
+INFO: [Synth 8-638] synthesizing module 'flags' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:57]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:212]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:253]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:287]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:344]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:371]
+INFO: [Synth 8-256] done synthesizing module 'flags' (6#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:57]
+INFO: [Synth 8-3491] module 'x12_bit_program_address_generator' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/x12_bit_program_address_generator.vhd:34' bound to instance 'x12_bit_program_address_generator_i' of component 'x12_bit_program_address_generator' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:479]
+INFO: [Synth 8-638] synthesizing module 'x12_bit_program_address_generator' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/x12_bit_program_address_generator.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'x12_bit_program_address_generator' (7#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/x12_bit_program_address_generator.vhd:45]
+INFO: [Synth 8-3491] module 'program_counter' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:34' bound to instance 'program_counter_i' of component 'program_counter' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:489]
+INFO: [Synth 8-638] synthesizing module 'program_counter' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:61]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:396]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:409]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:422]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:435]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:448]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:461]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:474]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:487]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:500]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:513]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:526]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:761]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:774]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:787]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:800]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:813]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:826]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:839]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:852]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:865]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:878]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:891]
+INFO: [Synth 8-3491] module 'x12_bit_program_address_generator' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/x12_bit_program_address_generator.vhd:34' bound to instance 'x12_bit_program_address_generator_i' of component 'x12_bit_program_address_generator' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:901]
+INFO: [Synth 8-3491] module 'decode4_pc_statck' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/decode4_pc_statck.vhd:34' bound to instance 'decode4_pc_statck_i' of component 'decode4_pc_statck' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:911]
+INFO: [Synth 8-3491] module 'register_bank_control' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/register_bank_control.vhd:34' bound to instance 'register_bank_control_i' of component 'register_bank_control' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:922]
+INFO: [Synth 8-256] done synthesizing module 'program_counter' (8#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/program_counter.vhd:61]
+INFO: [Synth 8-3491] module 'stack' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/stack.vhd:34' bound to instance 'stack_i' of component 'stack' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:514]
+INFO: [Synth 8-638] synthesizing module 'stack' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/stack.vhd:56]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ram' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:34' bound to instance 'stack_ram_low' of component 'ram' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/stack.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'ram' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:48]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram' (9#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:48]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ram' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:34' bound to instance 'stack_ram_high' of component 'ram' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/stack.vhd:191]
+INFO: [Synth 8-638] synthesizing module 'ram__parameterized1' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:48]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram__parameterized1' (9#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'stack' (10#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/stack.vhd:56]
+INFO: [Synth 8-3491] module 'two_banks_of_16_gp_reg' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:34' bound to instance 'two_banks_of_16_gp_reg_i' of component 'two_banks_of_16_gp_reg' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:533]
+INFO: [Synth 8-638] synthesizing module 'two_banks_of_16_gp_reg' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:50]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ram' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:34' bound to instance 'sx_bank' of component 'ram' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:125]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ram32m_behav' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram32m_behav.vhd:34' bound to instance 'sy_bank' of component 'ram32m_behav' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'ram32m_behav' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram32m_behav.vhd:49]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram32m_behav' (11#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram32m_behav.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'two_banks_of_16_gp_reg' (12#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:50]
+INFO: [Synth 8-3491] module 'sel_of_2nd_op_to_alu_and_port_id' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/sel_of_2nd_op_to_alu_and_port_id.vhd:34' bound to instance 'sel_of_2nd_op_to_alu_and_port_id_i' of component 'sel_of_2nd_op_to_alu_and_port_id' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:548]
+INFO: [Synth 8-638] synthesizing module 'sel_of_2nd_op_to_alu_and_port_id' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/sel_of_2nd_op_to_alu_and_port_id.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'sel_of_2nd_op_to_alu_and_port_id' (13#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/sel_of_2nd_op_to_alu_and_port_id.vhd:44]
+INFO: [Synth 8-3491] module 'sel_of_out_port_value' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/sel_of_out_port_value.vhd:34' bound to instance 'sel_of_out_port_value_i' of component 'sel_of_out_port_value' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:559]
+INFO: [Synth 8-638] synthesizing module 'sel_of_out_port_value' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/sel_of_out_port_value.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'sel_of_out_port_value' (14#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/sel_of_out_port_value.vhd:43]
+INFO: [Synth 8-3491] module 'arith_and_logic_operations' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:34' bound to instance 'arith_and_logic_operations_i' of component 'arith_and_logic_operations' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:567]
+INFO: [Synth 8-638] synthesizing module 'arith_and_logic_operations' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:46]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:333]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:346]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:359]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:372]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:385]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:398]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:411]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:424]
+INFO: [Synth 8-256] done synthesizing module 'arith_and_logic_operations' (15#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/arith_and_logic_operations.vhd:46]
+INFO: [Synth 8-3491] module 'shift_and_rotate_operations' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/shift_and_rotate_operations.vhd:34' bound to instance 'shift_and_rotate_operations_i' of component 'shift_and_rotate_operations' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:578]
+INFO: [Synth 8-638] synthesizing module 'shift_and_rotate_operations' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/shift_and_rotate_operations.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'shift_and_rotate_operations' (16#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/shift_and_rotate_operations.vhd:45]
+INFO: [Synth 8-3491] module 'spm_with_output_reg' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/spm_with_output_reg.vhd:34' bound to instance 'spm_with_output_reg_i' of component 'spm_with_output_reg' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:588]
+INFO: [Synth 8-638] synthesizing module 'spm_with_output_reg' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/spm_with_output_reg.vhd:44]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'ram' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:34' bound to instance 'spm_ram' of component 'ram' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/spm_with_output_reg.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'ram__parameterized4' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:48]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram__parameterized4' (16#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/ram.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'spm_with_output_reg' (17#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/spm_with_output_reg.vhd:44]
+INFO: [Synth 8-3491] module 'mux_outputs_from_alu_spm_input_ports' declared at 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/mux_outputs_from_alu_spm_input_ports.vhd:34' bound to instance 'mux_outputs_from_alu_spm_input_ports_i' of component 'mux_outputs_from_alu_spm_input_ports' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:597]
+INFO: [Synth 8-638] synthesizing module 'mux_outputs_from_alu_spm_input_ports' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/mux_outputs_from_alu_spm_input_ports.vhd:45]
+INFO: [Synth 8-226] default block is never used [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/mux_outputs_from_alu_spm_input_ports.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'mux_outputs_from_alu_spm_input_ports' (18#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/mux_outputs_from_alu_spm_input_ports.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'zipi8' (19#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/imports/new/zipi8.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'top' (20#1) [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/top.vhd:44]
+WARNING: [Synth 8-3331] design shift_and_rotate_operations has unconnected port clk
+WARNING: [Synth 8-3331] design arith_and_logic_operations has unconnected port clk
+WARNING: [Synth 8-3331] design two_banks_of_16_gp_reg has unconnected port register_enable
+WARNING: [Synth 8-3331] design stack has unconnected port t_state[2]
+WARNING: [Synth 8-3331] design stack has unconnected port t_state[1]
+WARNING: [Synth 8-3331] design program_counter has unconnected port sxB[7]
+WARNING: [Synth 8-3331] design program_counter has unconnected port sxB[6]
+WARNING: [Synth 8-3331] design program_counter has unconnected port sxB[5]
+WARNING: [Synth 8-3331] design program_counter has unconnected port sxB[4]
+WARNING: [Synth 8-3331] design flags has unconnected port clk
+WARNING: [Synth 8-3331] design decode4_strobes_enables has unconnected port clk
+WARNING: [Synth 8-3331] design decode4alu has unconnected port clk
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1692.949 ; gain = 142.918
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1692.949 ; gain = 142.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1692.949 ; gain = 142.918
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1692.949 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/ip/program_memory/program_memory/program_memory_in_context.xdc] for cell 'test_program'
+Finished Parsing XDC File [d:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/ip/program_memory/program_memory/program_memory_in_context.xdc] for cell 'test_program'
+Parsing XDC File [d:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clock_gen'
+Finished Parsing XDC File [d:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clock_gen'
+Parsing XDC File [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/constrs_1/imports/zcu104-xdc-rdf0438/zcu104_Rev1.0_U1_01302018.xdc]
+Finished Parsing XDC File [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/constrs_1/imports/zcu104-xdc-rdf0438/zcu104_Rev1.0_U1_01302018.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/constrs_1/imports/zcu104-xdc-rdf0438/zcu104_Rev1.0_U1_01302018.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1810.668 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1810.668 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'test_program' at clock pin 'clka' is different from the actual clock period '9.999', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1818.410 ; gain = 268.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1818.410 ; gain = 268.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_300_N. (constraint file  d:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK_300_N. (constraint file  d:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_300_P. (constraint file  d:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK_300_P. (constraint file  d:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property DONT_TOUCH = true for test_program. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clock_gen. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1818.410 ; gain = 268.379
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'zero_flag_reg' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:109]
+WARNING: [Synth 8-327] inferring latch for variable 'carry_flag_reg' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/flags.vhd:110]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1818.410 ; gain = 268.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 31    
++---Registers : 
+	               12 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 39    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module state_machine 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
+Module register_bank_control 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module flags 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module program_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 22    
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 23    
+Module stack 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+Module arith_and_logic_operations 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module shift_and_rotate_operations 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module mux_outputs_from_alu_spm_input_ports 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'processor_zipi8/state_machine_i/sync_interrupt_reg' into 'processor_zipi8/state_machine_i/sync_sleep_reg' [D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.srcs/sources_1/new/state_machine.vhd:83]
+INFO: [Synth 8-3886] merging instance 'processor_zipi8/stack_i/stack_pointer2_reg_rep[4]' (FDR) to 'processor_zipi8/stack_i/stack_pointer2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'processor_zipi8/stack_i/stack_pointer2_reg_rep[3]' (FDR) to 'processor_zipi8/stack_i/stack_pointer2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'processor_zipi8/stack_i/stack_pointer2_reg_rep[2]' (FDR) to 'processor_zipi8/stack_i/stack_pointer2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'processor_zipi8/stack_i/stack_pointer2_reg_rep[1]' (FDR) to 'processor_zipi8/stack_i/stack_pointer2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'processor_zipi8/stack_i/stack_pointer2_reg_rep[0]' (FDR) to 'processor_zipi8/stack_i/stack_pointer2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\processor_zipi8/state_machine_i/sync_sleep_reg )
+INFO: [Synth 8-3886] merging instance 'processor_zipi8/state_machine_i/sync_sleep_reg' (FD) to 'processor_zipi8/state_machine_i/active_interrupt_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\processor_zipi8/state_machine_i/active_interrupt_reg )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1818.410 ; gain = 268.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                                                 | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+|top         | processor_zipi8/stack_i/stack_ram_low/ram_s_reg            | Implied   | 32 x 8               | RAM32X1D x 8	  | 
+|top         | processor_zipi8/stack_i/stack_ram_high/ram_s_reg           | Implied   | 32 x 8               | RAM32X1D x 8	  | 
+|top         | processor_zipi8/spm_with_output_reg_i/spm_ram/ram_s_reg    | Implied   | 256 x 8              | RAM256X1S x 8	 | 
+|top         | processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/ram_s_reg | Implied   | 32 x 8               | RAM32X1D x 8	  | 
+|top         | processor_zipi8/two_banks_of_16_gp_reg_i/sy_bank/ram_s_reg | Implied   | 32 x 8               | RAM32M16 x 2	  | 
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2436.457 ; gain = 886.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2513.371 ; gain = 963.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                                                 | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+|top         | processor_zipi8/stack_i/stack_ram_low/ram_s_reg            | Implied   | 32 x 8               | RAM32X1D x 8	  | 
+|top         | processor_zipi8/stack_i/stack_ram_high/ram_s_reg           | Implied   | 32 x 8               | RAM32X1D x 8	  | 
+|top         | processor_zipi8/spm_with_output_reg_i/spm_ram/ram_s_reg    | Implied   | 256 x 8              | RAM256X1S x 8	 | 
+|top         | processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/ram_s_reg | Implied   | 32 x 8               | RAM32X1D x 8	  | 
+|top         | processor_zipi8/two_banks_of_16_gp_reg_i/sy_bank/ram_s_reg | Implied   | 32 x 8               | RAM32M16 x 2	  | 
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2522.297 ; gain = 972.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2525.109 ; gain = 975.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2525.109 ; gain = 975.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2525.109 ; gain = 975.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2525.109 ; gain = 975.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2525.109 ; gain = 975.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2525.109 ; gain = 975.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |clk_wiz_0      |         1|
+|2     |program_memory |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |clk_wiz_0_bbox_0      |     1|
+|2     |program_memory_bbox_1 |     1|
+|3     |CARRY8                |     2|
+|4     |LUT1                  |     4|
+|5     |LUT2                  |    17|
+|6     |LUT3                  |    30|
+|7     |LUT4                  |    41|
+|8     |LUT5                  |    65|
+|9     |LUT6                  |    93|
+|10    |RAM256X1S             |     8|
+|11    |RAM32M16              |     2|
+|12    |RAM32X1D              |    24|
+|13    |FDRE                  |    47|
+|14    |LDC                   |     2|
+|15    |IBUF                  |     1|
+|16    |OBUF                  |     2|
++------+----------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+------------------------+------+
+|      |Instance                      |Module                  |Cells |
++------+------------------------------+------------------------+------+
+|1     |top                           |                        |   376|
+|2     |  processor_zipi8             |zipi8                   |   335|
+|3     |    flags_i                   |flags                   |    27|
+|4     |    program_counter_i         |program_counter         |    54|
+|5     |      register_bank_control_i |register_bank_control_1 |     3|
+|6     |    register_bank_control_i   |register_bank_control   |     3|
+|7     |    spm_with_output_reg_i     |spm_with_output_reg     |     8|
+|8     |      spm_ram                 |ram__parameterized4     |     8|
+|9     |    stack_i                   |stack                   |    81|
+|10    |      stack_ram_high          |ram__parameterized1     |    34|
+|11    |      stack_ram_low           |ram_0                   |    20|
+|12    |    state_machine_i           |state_machine           |    14|
+|13    |    two_banks_of_16_gp_reg_i  |two_banks_of_16_gp_reg  |   148|
+|14    |      sx_bank                 |ram                     |   120|
+|15    |      sy_bank                 |ram32m_behav            |    28|
++------+------------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2525.109 ; gain = 975.078
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2525.109 ; gain = 849.617
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2525.109 ; gain = 975.078
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2537.164 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 39 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2554.949 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 37 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instance 
+  LDC => LDCE: 2 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 8 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 2 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 24 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+131 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 2554.949 ; gain = 2075.762
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2554.949 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/workspace/Vivado_2019.2/zipi8_1ipc/zipi8_1ipc.runs/synth_2/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  7 00:25:05 2020...

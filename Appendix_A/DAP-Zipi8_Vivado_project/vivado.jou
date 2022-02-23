@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Feb 23 12:13:01 2022
+# Process ID: 21224
+# Current directory: D:/workspace/Chula/LLVM backend/LLVM/my_papers/zipi8_ipc1/Hindawi/DAPZipi8Appendices/Appendix_A/DAP-Zipi8_Vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22008 D:\workspace\Chula\LLVM backend\LLVM\my_papers\zipi8_ipc1\Hindawi\DAPZipi8Appendices\Appendix_A\DAP-Zipi8_Vivado_project\zipi8_1ipc.xpr
+# Log file: D:/workspace/Chula/LLVM backend/LLVM/my_papers/zipi8_ipc1/Hindawi/DAPZipi8Appendices/Appendix_A/DAP-Zipi8_Vivado_project/vivado.log
+# Journal file: D:/workspace/Chula/LLVM backend/LLVM/my_papers/zipi8_ipc1/Hindawi/DAPZipi8Appendices/Appendix_A/DAP-Zipi8_Vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/workspace/Chula/LLVM backend/LLVM/my_papers/zipi8_ipc1/Hindawi/DAPZipi8Appendices/Appendix_A/DAP-Zipi8_Vivado_project/zipi8_1ipc.xpr}
+update_compile_order -fileset sources_1
